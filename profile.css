@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+/* Outer border box */
+.outer-box {
+    border: 2px solid #333;
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+/* Cards row */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+/* Individual card */
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+/* Circle */
+.circle {
+    width: 80px;
+    height: 80px;
+    background: #3ba8ec;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin: 0 auto 15px;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 3px 0;
+    color: #555;
+}
+    
